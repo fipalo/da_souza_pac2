@@ -1,15 +1,22 @@
 body {
   color: #252525;
-  background: url("fons_general.3ff6bbbe.jpg") center / cover no-repeat fixed;
+  background: url("jr-korpa-jD1huE0iPk0-unsplash.4ec98ded.jpg") center / cover no-repeat fixed;
   margin: 0;
   font-family: Clash;
   font-size: 16px;
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   color: #252525;
-  margin-to: 5%;
+  margin-top: 5%;
+  font-family: Thunder;
+  font-weight: bold;
+}
+
+h3 {
+  color: #fcfff2;
+  margin-top: 5%;
   font-family: Thunder;
   font-weight: bold;
 }
@@ -23,7 +30,7 @@ p {
 }
 
 .container {
-  background-color: #ffffffb3;
+  background-color: #ffffffe6;
   border-radius: 10px;
   width: 1200px;
   margin: 0 auto;
@@ -39,8 +46,8 @@ p {
 
 blockquote {
   quotes: "“" "”" "‘" "’";
-  background: #eee;
-  border-left: 10px solid #ccc;
+  background: #f3d6f7;
+  border-left: 10px solid #4509b4;
   margin: 1.5em 10px;
   padding: .5em 10px;
   font-family: Clash;
@@ -60,7 +67,7 @@ blockquote p {
 }
 
 header {
-  background-color: #d42e2ecc;
+  background-color: #271bcf99;
   padding: 1rem;
 }
 
@@ -268,14 +275,14 @@ button {
 }
 
 a {
-  color: #ff6f61;
+  color: #420ff8;
   font-weight: bold;
   text-decoration: none;
   transition: color .3s, box-shadow .3s;
 }
 
 a:hover {
-  color: #6a0572;
+  color: #3be9e0;
   text-shadow: 0 0 10px #fffc;
 }
 
@@ -327,5 +334,44 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #4fc1dd;
+}
+
+footer {
+  color: #fcfff2;
+  text-align: center;
+  background-color: #d42e2ecc;
+  padding: 1rem;
+}
+
+footer .footer-content {
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+@media (width >= 768px) {
+  footer .footer-content {
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+footer .footer-section {
+  flex: 1;
+}
+
+footer .footer-section h4 {
+  margin-bottom: 1rem;
+}
+
+footer .footer-section ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer .footer-section ul li {
+  margin-bottom: .5rem;
 }
 /*# sourceMappingURL=index.ee80481c.css.map */

@@ -2,17 +2,24 @@ body {
     font-family: $font-family;
     font-size: $base-font-size;
     margin: 0;
-    background: url('../img/fons_general.jpg') no-repeat center center fixed;
+    background: url('../img/jr-korpa-jD1huE0iPk0-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     line-height: 1.6;
     color: $p-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-weight: bold;
     color: $p-color;
     font-family: $font-titols;
-    margin-to: 5%;
+    margin-toP: 5%;
+}
+
+h3 {
+    font-weight: bold;
+    color: $secondary-color;
+    font-family: $font-titols;
+    margin-toP: 5%;
 }
 
 h1 {
@@ -26,7 +33,7 @@ p {
 .container {
     width: 1200px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.7); 
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -39,9 +46,9 @@ p {
 }
 
 blockquote {
-    background: #eee;
+    background: #f3d6f7;
     font-family: 'Clash';
-    border-left: 10px solid #ccc;
+    border-left: 10px solid #4509b4;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";

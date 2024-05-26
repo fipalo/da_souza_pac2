@@ -3,17 +3,24 @@ body {
   font-family: "Clash";
   font-size: 16px;
   margin: 0;
-  background: url("../img/fons_general.jpg") no-repeat center center fixed;
+  background: url("../img/jr-korpa-jD1huE0iPk0-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
   line-height: 1.6;
   color: #252525;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-weight: bold;
   color: #252525;
   font-family: "Thunder";
-  margin-to: 5%;
+  margin-toP: 5%;
+}
+
+h3 {
+  font-weight: bold;
+  color: #fcfff2;
+  font-family: "Thunder";
+  margin-toP: 5%;
 }
 
 h1 {
@@ -27,7 +34,7 @@ p {
 .container {
   width: 1200px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 10px;
 }
@@ -40,9 +47,9 @@ p {
 }
 
 blockquote {
-  background: #eee;
+  background: #f3d6f7;
   font-family: "Clash";
-  border-left: 10px solid #ccc;
+  border-left: 10px solid #4509b4;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "“" "”" "‘" "’";
@@ -62,7 +69,7 @@ blockquote p {
 }
 
 header {
-  background-color: rgba(212, 46, 46, 0.8);
+  background-color: rgba(39, 27, 207, 0.6);
   padding: 1rem;
 }
 header nav ul {
@@ -235,7 +242,7 @@ button {
 
 /* Estil base per a tots els enllaços */
 a {
-  color: #FF6F61;
+  color: #420ff8;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease, box-shadow 0.3s ease;
@@ -243,7 +250,7 @@ a {
 
 /* Estil per a l'efecte hover */
 a:hover {
-  color: #6A0572;
+  color: #3be9e0;
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
@@ -294,6 +301,39 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: #4fc1dd;
+}
+
+footer {
+  background-color: rgba(212, 46, 46, 0.8);
+  color: #fcfff2;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  footer .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+footer .footer-section {
+  flex: 1;
+}
+footer .footer-section h4 {
+  margin-bottom: 1rem;
+}
+footer .footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+footer .footer-section ul li {
+  margin-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=estils.css.map */
