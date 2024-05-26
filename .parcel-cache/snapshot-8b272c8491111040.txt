@@ -1,6 +1,6 @@
 9719
 48C:\UOC\da_souza_pac2\node_modules\@swc\helpers\_133611166995052219 1
-35C:\UOC\da_souza_pac2\biografia.html133611848109694794 0
+35C:\UOC\da_souza_pac2\biografia.html133611856813646408 0
 90C:\UOC\da_souza_pac2\node_modules\abortcontroller-polyfill\src\abortcontroller-polyfill.js133611166938683182 0
 86C:\UOC\da_souza_pac2\node_modules\css-select\node_modules\domutils\lib\querying.js.map133611166947781891 0
 96C:\UOC\da_souza_pac2\node_modules\regenerate-unicode-properties\Script_Extensions\Dives_Akuru.js133611167012671797 0
@@ -62,7 +62,7 @@
 84C:\UOC\da_souza_pac2\node_modules\htmlnano\lib\modules\minifyConditionalComments.mjs133611167115199989 0
 59C:\UOC\da_souza_pac2\node_modules\@parcel\transformer-babel133611166891839547 1
 59C:\UOC\da_souza_pac2\node_modules\resolve\test\node_path.js133611166907443184 0
-37C:\UOC\da_souza_pac2\discografia.html133611848109694794 0
+37C:\UOC\da_souza_pac2\discografia.html133611856813646408 0
 51C:\UOC\da_souza_pac2\node_modules\lmdb\dependencies133611167340992581 1
 68C:\UOC\da_souza_pac2\node_modules\@swc\helpers\cjs\_ts_generator.cjs133611166977219592 0
 94C:\UOC\da_souza_pac2\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.js133611166904949432 0
@@ -89,7 +89,7 @@
 75C:\UOC\da_souza_pac2\node_modules\lmdb\node_modules\node-addon-api\index.js133611167139229081 0
 84C:\UOC\da_souza_pac2\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts133611167266162831 1
 59C:\UOC\da_souza_pac2\node_modules\lines-and-columns\LICENSE133611166903430288 0
-25C:\UOC\da_souza_pac2\dist133611848228480248 1
+25C:\UOC\da_souza_pac2\dist133611856815053829 1
 64C:\UOC\da_souza_pac2\node_modules\csso\cjs\replace\Dimension.cjs133611166940968786 0
 64C:\UOC\da_souza_pac2\node_modules\domutils\lib\manipulation.d.ts133611167064592766 0
 77C:\UOC\da_souza_pac2\node_modules\htmlnano\lib\modules\removeOptionalTags.mjs133611167119339698 0
@@ -121,7 +121,7 @@
 89C:\UOC\da_souza_pac2\node_modules\@babel\helpers\lib\helpers\iterableToArrayLimitLoose.js133611167002148461 0
 69C:\UOC\da_souza_pac2\node_modules\svgo\plugins\cleanupListOfValues.js133611167179004279 0
 80C:\UOC\da_souza_pac2\node_modules\csso\node_modules\css-tree\cjs\lexer\match.cjs133611166920928936 0
-31C:\UOC\da_souza_pac2\index.html133611848109694794 0
+31C:\UOC\da_souza_pac2\index.html133611856813656408 0
 79C:\UOC\da_souza_pac2\node_modules\@babel\helpers\lib\helpers\temporalRef.js.map133611167014952102 0
 90C:\UOC\da_souza_pac2\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\xast.js133611167176800404 0
 59C:\UOC\da_souza_pac2\node_modules\resolve\test\mock_sync.js133611166907423141 0
@@ -9706,7 +9706,6 @@
 51C:\UOC\da_souza_pac2\fonts\ClashDisplay-Regular.otf133611184641758007 0
 47C:\UOC\da_souza_pac2\fonts\Newake-Font-Demo.otf133611831495257736 0
 47C:\UOC\da_souza_pac2\fonts\Thunder-MediumHC.ttf133611185180095804 0
-40C:\UOC\da_souza_pac2\dist\biografia.html133611839644439505 0
 58C:\UOC\da_souza_pac2\dist\ClashDisplay-Medium.f38bc7a5.otf133611839643926994 0
 42C:\UOC\da_souza_pac2\dist\discografia.html133611839644329370 0
 39C:\UOC\da_souza_pac2\dist\enllaços.html133611848228480248 0
@@ -9718,3 +9717,4 @@
 55C:\UOC\da_souza_pac2\dist\Newake-Font-Demo.2f3e655a.otf133611839643881856 0
 71C:\UOC\da_souza_pac2\dist\scott-evans-f_CO1zX5g6o-unsplash.b8718b89.jpg133611751405620607 0
 55C:\UOC\da_souza_pac2\dist\Thunder-MediumHC.f9670d2c.ttf133611839643926994 0
+40C:\UOC\da_souza_pac2\dist\biografia.html133611856815053829 0
