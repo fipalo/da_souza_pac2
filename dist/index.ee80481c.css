@@ -19,13 +19,13 @@ h1 {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 1.5rem;
 }
 
 .container {
   background-color: #ffffffb3;
   border-radius: 10px;
-  max-width: 800px;
+  width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -304,5 +304,28 @@ a:active {
 
 .button-link:active {
   transform: scale(.95);
+}
+
+nav ul {
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fcfff2;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+nav ul li a:hover {
+  color: #4fc1dd;
 }
 /*# sourceMappingURL=index.ee80481c.css.map */
