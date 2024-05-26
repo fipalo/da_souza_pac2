@@ -25,6 +25,12 @@ p {
   padding: 20px;
 }
 
+.container_img {
+  text-align: center;
+  width: 700px;
+  padding: 5%;
+}
+
 blockquote {
   quotes: "“" "”" "‘" "’";
   background: #eee;

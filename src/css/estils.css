@@ -27,6 +27,12 @@ p {
   border-radius: 10px;
 }
 
+.container_img {
+  text-align: center;
+  width: 700;
+  padding: 5%;
+}
+
 blockquote {
   background: #eee;
   font-family: "Clash";
