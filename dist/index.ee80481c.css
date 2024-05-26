@@ -31,9 +31,10 @@ p {
 }
 
 .container_img {
-  text-align: center;
-  width: 700px;
+  justify-content: center;
+  align-items: center;
   padding: 2%;
+  display: flex;
 }
 
 blockquote {
@@ -252,5 +253,56 @@ main ul li {
   src: url("Newake-Font-Demo.bec5a247.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+}
+
+.botons {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+button {
+  color: #fcfff2;
+  background: none;
+  font-family: Clash;
+}
+
+a {
+  color: #ff6f61;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color .3s, box-shadow .3s;
+}
+
+a:hover {
+  color: #6a0572;
+  text-shadow: 0 0 10px #fffc;
+}
+
+a:active {
+  color: #4caf50;
+}
+
+.button-link {
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff6f61, #6a0572);
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform .3s, box-shadow .3s;
+  display: inline-block;
+  box-shadow: 0 8px 15px #0003;
+}
+
+.button-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 20px #0000004d;
+}
+
+.button-link:active {
+  transform: scale(.95);
 }
 /*# sourceMappingURL=index.ee80481c.css.map */

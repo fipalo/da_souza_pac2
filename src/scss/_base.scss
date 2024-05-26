@@ -32,8 +32,9 @@ p {
 }
 
 .container_img {
-    text-align: center;
-    width: 700;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     padding: 2%;
 }
 
@@ -56,3 +57,5 @@ blockquote:before {
 blockquote p {
     display: inline;
 }
+
+
