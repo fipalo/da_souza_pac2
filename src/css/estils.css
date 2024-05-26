@@ -187,25 +187,25 @@ main ul li {
 }
 @font-face {
   font-family: "Clash";
-  src: url("/src/fonts/ClashDisplay-Medium.otf") format("opentype");
+  src: url("../../fonts/ClashDisplay-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Mango";
-  src: url("/src/fonts/MangoGrotesque-Black.ttf") format("truetype");
+  src: url("../../fonts/MangoGrotesque-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Thunder";
-  src: url("/src/fonts/Thunder-MediumHC.ttf") format("truetype");
+  src: url("../../fonts/Thunder-MediumHC.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Newake";
-  src: url("/src/fonts/Newake-Font-Demo.otf") format("opentype");
+  src: url("../../fonts/Newake-Font-Demo.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }

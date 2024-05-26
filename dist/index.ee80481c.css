@@ -217,28 +217,28 @@ main ul li {
 
 @font-face {
   font-family: Clash;
-  src: url("ClashDisplay-Medium.f38bc7a5.otf") format("opentype");
+  src: url("ClashDisplay-Regular.7722fccb.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Mango;
-  src: url("MangoGrotesque-Black.6c8e3346.ttf") format("truetype");
+  src: url("MangoGrotesque-Black.d966f278.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Thunder;
-  src: url("Thunder-MediumHC.f9670d2c.ttf") format("truetype");
+  src: url("Thunder-MediumHC.089b22c0.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Newake;
-  src: url("Newake-Font-Demo.2f3e655a.otf") format("opentype");
+  src: url("Newake-Font-Demo.bec5a247.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
