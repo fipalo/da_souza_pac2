@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Clash";
   font-size: 16px;
   margin: 0;
   background: url("../img/scott-evans-f_CO1zX5g6o-unsplash.jpg") no-repeat center center fixed;
@@ -12,10 +12,41 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #252525;
+  font-family: "Clash";
 }
 
 p {
   margin: 0 0 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+blockquote {
+  background: #eee;
+  font-family: "Clash";
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”" "‘" "’";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
 }
 
 header {
@@ -40,7 +71,7 @@ header nav ul li a {
   transition: color 0.3s ease;
 }
 header nav ul li a:hover {
-  color: #b01dce;
+  color: #4fc1dd;
 }
 @media (min-width: 768px) {
   header nav ul {
@@ -113,36 +144,6 @@ main ul li {
   }
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8); /* Afegim un fons semi-transparent per millorar la llegibilitat del text */
-  padding: 20px;
-  border-radius: 10px;
-}
-
-blockquote {
-  background: #eee;
-  font-family: "Clash";
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "“" "”" "‘" "’";
-}
-
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-blockquote p {
-  display: inline;
-}
-
 @media (min-width: 768px) {
   header {
     padding: 1.5rem;
@@ -186,7 +187,7 @@ blockquote p {
 }
 @font-face {
   font-family: "Clash";
-  src: url("../fonts/ClashDisplay-Bold.otf") format("otf"), url("../fonts/ClashDisplay-Regular.otf") format("otf"), url("../fonts/ClashDisplay-Medium.otf") format("otf");
+  src: url("/src/fonts/ClashDisplay-Medium.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }

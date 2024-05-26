@@ -1,4 +1,5 @@
 main {
+
     padding: 1rem;
 
     h1 {
@@ -9,7 +10,7 @@ main {
     p, ul {
         font-size: 0.8rem;
         line-height: 1.6;
-        font-family: 'Clash';
+        font-family: $font-family;
     }
 
     ul {
@@ -19,6 +20,7 @@ main {
             margin-bottom: 0.5rem;
         }
     }
+    
 
     @include respond-to('medium') {
         padding: 1.5rem;
@@ -58,31 +60,3 @@ main {
     }
 }
 
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.8); /* Afegim un fons semi-transparent per millorar la llegibilitat del text */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-blockquote {
-    background: #eee;
-    font-family: 'Clash';
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-}
-blockquote p {
-    display: inline;
-}

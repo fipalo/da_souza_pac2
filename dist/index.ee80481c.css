@@ -2,18 +2,49 @@ body {
   color: #252525;
   background: url("scott-evans-f_CO1zX5g6o-unsplash.b8718b89.jpg") center / cover no-repeat fixed;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Clash;
   font-size: 16px;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #252525;
+  font-family: Clash;
   font-weight: bold;
 }
 
 p {
   margin: 0 0 1rem;
+}
+
+.container {
+  background-color: #fffc;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+blockquote {
+  quotes: "“" "”" "‘" "’";
+  background: #eee;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: .5em 10px;
+  font-family: Clash;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  vertical-align: -.4em;
+  margin-right: .25em;
+  font-size: 4em;
+  line-height: .1em;
+}
+
+blockquote p {
+  display: inline;
 }
 
 header {
@@ -42,7 +73,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #b01dce;
+  color: #4fc1dd;
 }
 
 @media (width >= 768px) {
@@ -132,36 +163,6 @@ main ul li {
   }
 }
 
-.container {
-  background-color: #fffc;
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-blockquote {
-  quotes: "“" "”" "‘" "’";
-  background: #eee;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: .5em 10px;
-  font-family: Clash;
-}
-
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  vertical-align: -.4em;
-  margin-right: .25em;
-  font-size: 4em;
-  line-height: .1em;
-}
-
-blockquote p {
-  display: inline;
-}
-
 @media (width >= 768px) {
   header {
     padding: 1.5rem;
@@ -216,7 +217,7 @@ blockquote p {
 
 @font-face {
   font-family: Clash;
-  src: url("ClashDisplay-Bold.dbe36155.otf") format("otf"), url("ClashDisplay-Regular.5dceac74.otf") format("otf"), url("ClashDisplay-Medium.f38bc7a5.otf") format("otf");
+  src: url("ClashDisplay-Medium.f38bc7a5.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
