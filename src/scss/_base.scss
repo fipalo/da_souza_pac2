@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: $p-color;
     font-family: $font-titols;
+    margin-to: 5%;
+}
+
+h1 {
+    text-align: center;
 }
 
 p {
@@ -21,7 +26,7 @@ p {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border-radius: 10px;
 }
