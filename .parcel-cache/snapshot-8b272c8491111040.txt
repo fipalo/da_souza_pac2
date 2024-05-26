@@ -1,6 +1,6 @@
 9739
 48C:\UOC\da_souza_pac2\node_modules\@swc\helpers\_133611166995052219 1
-35C:\UOC\da_souza_pac2\biografia.html133611873877998848 0
+35C:\UOC\da_souza_pac2\biografia.html133611888200567844 0
 90C:\UOC\da_souza_pac2\node_modules\abortcontroller-polyfill\src\abortcontroller-polyfill.js133611166938683182 0
 86C:\UOC\da_souza_pac2\node_modules\css-select\node_modules\domutils\lib\querying.js.map133611166947781891 0
 96C:\UOC\da_souza_pac2\node_modules\regenerate-unicode-properties\Script_Extensions\Dives_Akuru.js133611167012671797 0
