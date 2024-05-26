@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Mango';
-    src: url('../fonts/MangoGrotesque-Black.ttf') format('ttf');
+    src: url('/src/fonts/MangoGrotesque-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,14 @@
 
 @font-face {
     font-family: 'Thunder';
-    src: url('../fonts/Thunder-MediumHC.ttf') format('ttf');
+    src: url('/src/fonts/Thunder-MediumHC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Newake';
+    src: url('/src/fonts/Newake-Font-Demo.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }

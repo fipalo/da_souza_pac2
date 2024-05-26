@@ -3,7 +3,7 @@ body {
   font-family: "Clash";
   font-size: 16px;
   margin: 0;
-  background: url("../img/scott-evans-f_CO1zX5g6o-unsplash.jpg") no-repeat center center fixed;
+  background: url("../img/fons_general.jpg") no-repeat center center fixed;
   background-size: cover;
   line-height: 1.6;
   color: #252525;
@@ -12,7 +12,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #252525;
-  font-family: "Clash";
+  font-family: "Thunder";
 }
 
 p {
@@ -193,13 +193,19 @@ main ul li {
 }
 @font-face {
   font-family: "Mango";
-  src: url("../fonts/MangoGrotesque-Black.ttf") format("ttf");
+  src: url("/src/fonts/MangoGrotesque-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Thunder";
-  src: url("../fonts/Thunder-MediumHC.ttf") format("ttf");
+  src: url("/src/fonts/Thunder-MediumHC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Newake";
+  src: url("/src/fonts/Newake-Font-Demo.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
